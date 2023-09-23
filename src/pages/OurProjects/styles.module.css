@@ -1,0 +1,94 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.projectContainer{
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 85vh;
+    align-self: flex-end;
+    padding: 50px;
+    overflow-y: auto;
+    transition: all 800ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.projectContainerSmall{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 30%;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    height: 45%;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.projectSmall{
+    width: 90%;
+}
+
+.project p{
+    font-size: 20px;
+    font-family: 'Kanit';
+    font-weight: 700;
+}
+
+.projectImage{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    transition: all 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-sizing: initial;
+}
+
+.projectImage:hover{
+    border: 5px solid #F5F5F5;
+}
+
+.projectImageSelected{
+    border: 5px solid #F5F5F5;
+}
+
+.photoContainer{
+    width: 0;
+    position: relative;
+    transition: all 800ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    align-self: flex-end;
+}
+
+.photoContainer span{
+    width: 40px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.photoContainerEnter{
+    width: 60%;
+    height: 85vh;
+    align-self: flex-end;
+}
+
+.carousel{
+    padding: 50px;
+}
+
+.image{
+    width: 70%;
+    height: 70vh;
+    align-self: center;
+    object-fit: cover;
+}

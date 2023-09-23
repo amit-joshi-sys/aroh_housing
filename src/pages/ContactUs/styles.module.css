@@ -1,0 +1,101 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.subContainer{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    position: relative;
+    overflow-y: auto;
+    justify-content: space-between;
+}
+
+.contactForm{
+    padding: 20px;
+}
+
+.contactForm h3{
+    font-family: 'Kanit';
+}
+
+.formContainer{
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputContainer label{
+    font-family: 'Kanit';
+}
+
+.input{
+    color: white;
+    background-color: transparent;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #616161;
+    border-radius: 10px;
+    outline: none;
+    transition: all 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: 'Kanit';
+}
+
+.input:focus{
+    outline: none;
+    border: 1px solid #F5F5F5;
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    background-color: rgb(241, 154, 55);
+}
+
+.shape{
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 17% 100%);
+    height: 100%;
+    background-color: rgb(17, 48, 139);
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactNumber{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contactNumber h4{
+    font-family: 'Kanit';
+    font-size: 18px;
+}
+
+.address{
+    width: 50%;
+}
+
+.contactNumber p{
+    font-family: 'Kanit';
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

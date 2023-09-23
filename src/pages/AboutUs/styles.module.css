@@ -1,0 +1,63 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sectionsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+    overflow-y: auto;
+    padding-left: 50px;
+}
+
+.sectionsContainer h3{
+    font-family: 'Kanit';
+}
+
+.sectionContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.sectionContainer ul{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.sectionContainer li{
+    font-family: 'Kanit';
+    font-size: 20px;
+}
+
+.infoCard{
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoCard p{
+    font-family: 'Kanit';
+}
+
+.founderImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 5px solid #616161;
+}

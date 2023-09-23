@@ -1,0 +1,29 @@
+{
+    "ordering": [
+       {
+        "path": "/",
+        "id": "home_container",
+        "name": "Home",
+        "iconName": "home"
+       },
+       {
+        "path": "/our-projects",
+        "id": "our_projects_container",
+        "name": "Our Projects",
+        "iconName": "gallery_thumbnail",
+        "headerText": "Take a look at our projects"
+       },
+       {
+        "path": "/about-us",
+        "id": "about_us_container",
+        "name": "About Us",
+        "iconName": "info"
+       },
+       {
+        "path": "/contact-us",
+        "id": "contact_us_container",
+        "name": "Contact Us",
+        "iconName": "contact_support"
+       }
+    ]
+}
