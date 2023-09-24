@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/aroh_housing/static/css/main.ae6f386f.css",
-    "main.js": "/aroh_housing/static/js/main.3b8f3330.js",
+    "main.js": "/aroh_housing/static/js/main.4ddecca6.js",
     "static/js/787.ec0d030d.chunk.js": "/aroh_housing/static/js/787.ec0d030d.chunk.js",
     "index.html": "/aroh_housing/index.html",
     "main.ae6f386f.css.map": "/aroh_housing/static/css/main.ae6f386f.css.map",
-    "main.3b8f3330.js.map": "/aroh_housing/static/js/main.3b8f3330.js.map",
+    "main.4ddecca6.js.map": "/aroh_housing/static/js/main.4ddecca6.js.map",
     "787.ec0d030d.chunk.js.map": "/aroh_housing/static/js/787.ec0d030d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae6f386f.css",
-    "static/js/main.3b8f3330.js"
+    "static/js/main.4ddecca6.js"
   ]
 }
