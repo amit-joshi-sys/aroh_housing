@@ -4,7 +4,7 @@ import config from "../../config.json";
 import { Carousel } from "react-responsive-carousel";
 
 const Home = () => {
-  const page = config.ordering.find((page) => page.path === "/aroh_housing/");
+  const page = config.ordering.find((page) => page.path === "/");
   const [activeBannerConfig, setActiveBannerConfig] = useState(0);
 
   const bannerConfig = [

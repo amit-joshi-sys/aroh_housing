@@ -1,7 +1,7 @@
 {
     "ordering": [
        {
-        "path": "/aroh_housing/",
+        "path": "/",
         "id": "home_container",
         "name": "Home",
         "iconName": "home"
@@ -11,19 +11,22 @@
         "id": "our_projects_container",
         "name": "Our Projects",
         "iconName": "gallery_thumbnail",
-        "headerText": "Take a look at our projects"
+        "headerText": "Take a look at our projects",
+        "navigateTo": "/aroh_housing/our-projects"
        },
        {
         "path": "/about-us",
         "id": "about_us_container",
         "name": "About Us",
-        "iconName": "info"
+        "iconName": "info",
+        "navigateTo": "/aroh_housing/about-us"
        },
        {
         "path": "/contact-us",
         "id": "contact_us_container",
         "name": "Contact Us",
-        "iconName": "contact_support"
+        "iconName": "contact_support",
+        "navigateTo": "/aroh_housing/contact-us"
        }
     ]
 }
