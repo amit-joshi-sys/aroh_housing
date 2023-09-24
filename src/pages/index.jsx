@@ -14,7 +14,7 @@ const Pages = () => {
 
   useEffect(() => {
     const pageToScroll = config.ordering.find((page) => {
-      const finalPathName = location.pathname.replace("/aroh_housing/", "");
+      const finalPathName = location.pathname.replace("/aroh_housing", "");
       return page.path === finalPathName || "/";
     });
     console.log(pageToScroll, location);
