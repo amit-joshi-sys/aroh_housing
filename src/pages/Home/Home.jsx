@@ -5,7 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 
 const Home = () => {
   const page = config.ordering.find((page) => page.path === "/");
-  console.log(page, config);
   const [activeBannerConfig, setActiveBannerConfig] = useState(0);
 
   const bannerConfig = [
@@ -22,7 +21,7 @@ const Home = () => {
   ];
 
   return (
-    <div id={page.id} className={styles.container}>
+    <div id={page?.id} className={styles.container}>
       <div className={styles.content}>
         <Carousel
           axis="horizontal"

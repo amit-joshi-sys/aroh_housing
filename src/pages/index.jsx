@@ -16,6 +16,7 @@ const Pages = () => {
     const pageToScroll = config.ordering.find(
       (page) => page.path === location.pathname
     );
+    console.log(pageToScroll, location);
     const pageElement = document.getElementById(pageToScroll.id);
     pageElement.scrollIntoView({ behavior: "smooth" });
   }, [location]);
