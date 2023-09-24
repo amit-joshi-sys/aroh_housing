@@ -1,7 +1,7 @@
 {
     "ordering": [
        {
-        "path": "/",
+        "path": "/aroh_housing/",
         "id": "home_container",
         "name": "Home",
         "iconName": "home"
