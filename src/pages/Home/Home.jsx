@@ -10,12 +10,12 @@ const Home = () => {
   const bannerConfig = [
     {
       text: "Exceptional Home Remodeling and Renovations",
-      image: "/images/home_bg_1.jpg",
+      image: "/aroh_housing/images/home_bg_1.jpg",
       id: 1,
     },
     {
       text: "Great Interiors",
-      image: "/images/home_bg_2.jpg",
+      image: "/aroh_housing/images/home_bg_2.jpg",
       id: 2,
     },
   ];
