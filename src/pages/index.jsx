@@ -14,8 +14,10 @@ const Pages = () => {
 
   useEffect(() => {
     const pageToScroll = config.ordering.find((page) => {
-      const finalPathName = location.pathname.replace("/aroh_housing", "");
-      return page.path === finalPathName || "/";
+      const finalPathName =
+        location.pathname.replace("/aroh_housing", "") || "/";
+      console.log(finalPathName);
+      return page.path === finalPathName;
     });
     console.log(pageToScroll, location);
     const pageElement = document.getElementById(pageToScroll.id);
