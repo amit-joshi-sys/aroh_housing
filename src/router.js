@@ -3,7 +3,7 @@ import Pages from "./pages";
 
 export const router = createBrowserRouter([
   {
-    path: "/aroh_housing",
+    path: "/",
     element: <Pages />,
     children: [
       {

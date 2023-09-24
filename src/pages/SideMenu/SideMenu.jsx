@@ -19,12 +19,9 @@ const SideMenu = () => {
             <button
               role="link"
               className={`${styles.option} ${
-                (location.pathname.replace("/aroh_housing", "") || "/") ===
-                page.path
-                  ? styles.optionActive
-                  : ""
+                location.pathname === page.path ? styles.optionActive : ""
               }`}
-              onClick={() => onOptionClick(page.navigateTo)}
+              onClick={() => onOptionClick(page.path)}
             >
               <span class="material-symbols-outlined">{page.iconName}</span>
               <p>{page.name}</p>

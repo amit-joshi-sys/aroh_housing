@@ -13,12 +13,9 @@ const Pages = () => {
   const location = useLocation();
 
   useEffect(() => {
-    const pageToScroll = config.ordering.find((page) => {
-      const finalPathName =
-        location.pathname.replace("/aroh_housing", "") || "/";
-      console.log(finalPathName);
-      return page.path === finalPathName;
-    });
+    const pageToScroll = config.ordering.find(
+      (page) => page.path === location.pathname
+    );
     console.log(pageToScroll, location);
     const pageElement = document.getElementById(pageToScroll.id);
     pageElement.scrollIntoView({ behavior: "smooth" });
