@@ -12,7 +12,7 @@ const AboutUs = () => {
         <div className={styles.sectionContainer}>
           <div className={styles.infoCard}>
             <img
-              src="/images/founder_photo.JPG"
+              src="/aroh_housing/images/founder_photo.JPG"
               alt="harsh_raleraskar"
               className={styles.founderImage}
             />
@@ -21,7 +21,7 @@ const AboutUs = () => {
           </div>
           <div className={styles.infoCard}>
             <img
-              src="/images/founder_photo.JPG"
+              src="/aroh_housing/images/founder_photo.JPG"
               alt="harsh_raleraskar"
               className={styles.founderImage}
             />
