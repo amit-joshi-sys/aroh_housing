@@ -45,6 +45,25 @@ const OurProjects = () => {
         "/images/ghorpadi_site_photos/ghorpadi_site_photo4.jpg",
       ],
     },
+    {
+      projectName: "Prabhat Road",
+      projectLocation: "Prabhat Road",
+      thumbnail:
+        "/images/prabhat_road_site_photo/prabhat_road_site_photo_1.JPEG",
+      photos: [
+        "/images/prabhat_road_site_photo/prabhat_road_site_photo_1.JPEG",
+        "/images/prabhat_road_site_photo/prabhat_road_site_photo_2.JPEG",
+      ],
+    },
+    {
+      projectName: "Rajewadi",
+      projectLocation: "Rajewadi",
+      thumbnail: "/images/rajewadi_site_photo/rajewadi_site_photo_1.JPEG",
+      photos: [
+        "/images/rajewadi_site_photo/rajewadi_site_photo_1.JPEG",
+        "/images/rajewadi_site_photo/rajewadi_site_photo_2.JPEG",
+      ],
+    },
   ];
 
   return (
