@@ -4,7 +4,7 @@ import config from "../../config.json";
 // import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
 
 const ContactUs = () => {
-  // const page = config.ordering.find((page) => page.path === "/contact-us");
+  const page = config.ordering.find((page) => page.path === "/contact-us");
   // const { isLoaded } = useLoadScript({
   //   googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
   // });
