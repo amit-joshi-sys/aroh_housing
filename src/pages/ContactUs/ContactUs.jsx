@@ -1,14 +1,14 @@
 import React, { useMemo } from "react";
 import styles from "./styles.module.css";
 import config from "../../config.json";
-import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
+// import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
 
 const ContactUs = () => {
-  const page = config.ordering.find((page) => page.path === "/contact-us");
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
-  });
-  const center = useMemo(() => ({ lat: 18.52043, lng: 73.856743 }), []);
+  // const page = config.ordering.find((page) => page.path === "/contact-us");
+  // const { isLoaded } = useLoadScript({
+  //   googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
+  // });
+  // const center = useMemo(() => ({ lat: 18.52043, lng: 73.856743 }), []);
 
   return (
     <div id={page?.id} className={styles.container}>
@@ -42,7 +42,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div> */}
-        {isLoaded && <GoogleMap center={center} zoom={10} />}
+        {/* {isLoaded && <GoogleMap center={center} zoom={10} />} */}
         <div className={styles.footer}>
           <div className={styles.shape}>
             <div className={styles.contactNumber}>
